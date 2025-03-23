@@ -10,16 +10,17 @@ Date of create: 23.03.2025
 Date of finished: - 
 
 # Конфигурация mikrotik
-![Установим время](assets/1.png)
+Установим время
+![](assets/1.png)
 
+Загрузим конфигурацию
+![](assets/upload.png)
 
-![Загрузим конфигурацию](assets/upload.png)
+Импортируем
+![](assets/import.png)
 
-
-![Импортируем](assets/import.png)
-
-
-![Подключение](assets/monitor.png)
+Подключение
+![](assets/monitor.png)
 ![](assets/pring.png)
 
 Добавим gateway для vpn и с помощью fetch на http://ifconfig.me/ip узнаем под каким ip нас "видит" 
