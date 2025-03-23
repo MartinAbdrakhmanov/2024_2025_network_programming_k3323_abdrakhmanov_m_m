@@ -11,19 +11,29 @@ Date of finished: -
 
 # Конфигурация mikrotik
 Установим время
+
+
 ![](assets/1.png)
 
 Загрузим конфигурацию
+
+
 ![](assets/upload.png)
 
 Импортируем
+
+
 ![](assets/import.png)
 
 Подключение
+
+
 ![](assets/monitor.png)
 ![](assets/pring.png)
 
 Добавим gateway для vpn и с помощью fetch на http://ifconfig.me/ip узнаем под каким ip нас "видит" 
+
+
 ![fetch](assets/addgateway.png)
 
 188.126.76.169 - ip сервера на котором стоит vpn, значит все работает!
