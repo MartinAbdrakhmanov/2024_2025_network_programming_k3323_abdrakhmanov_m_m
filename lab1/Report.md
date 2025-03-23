@@ -9,6 +9,18 @@ Lab: Lab1
 Date of create: 23.03.2025
 Date of finished: - 
 
+
+# Конфигурация сервера
+Установим ансибл 
+
+
+![](assets/server.png)
+
+Из амнезии достанем .ovpn config
+
+
+![](assets/ovpn.png)
+
 # Конфигурация mikrotik
 Установим время
 
