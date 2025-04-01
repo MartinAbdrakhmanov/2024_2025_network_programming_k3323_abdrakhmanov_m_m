@@ -7,7 +7,7 @@
     - name: NTP server setup
       community.routeros.command:
         commands:
-          - /system ntp client set enabled=yes primary-ntp=pool.ntp.org server-dns-names=pool.ntp.org
+          - /system ntp client set enabled=yes servers=pool.ntp.org
 
     - name: Create loopback 
       community.routeros.command:
