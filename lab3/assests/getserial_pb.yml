@@ -1,0 +1,35 @@
+---
+- name: Get serial number
+  hosts: ungrouped
+  gather_facts: false
+  tasks:
+
+    - name: Get serial number
+      community.routeros.command:
+        commands:
+          - /system license print
+      register: license
+    - name: Get name
+      community.routeros.command:
+        commands:
+          - /system identity print
+      register: identity
+
+    - name: Update devices
+      netbox.netbox.netbox_device:
+        netbox_url: http://0.0.0.0:8000
+        netbox_token: 3b53685ffb659d6f8d58662fdbacf7de91e83f3b
+        data: 
+          name: "{{identity.stdout_lines[0][0].split(' ')[1]}}"
+          serial: "{{license.stdout_lines[0][0].split(' ')[1]}}"
+          device_type: "7"  
+          device_role: "CHR"  
+          site: "lab3site" 
+        state: present
+    
+
+
+
+
+    
+
