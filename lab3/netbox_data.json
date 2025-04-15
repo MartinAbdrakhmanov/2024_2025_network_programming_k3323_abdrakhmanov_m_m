@@ -1,0 +1,194 @@
+{
+
+    "_meta": {
+
+        "hostvars": {
+
+            "mikrotik718": {
+
+                "ansible_connection": "network_cli",
+
+                "ansible_host": "192.168.0.110",
+
+                "ansible_network_os": "routeros",
+
+                "ansible_password": "123",
+
+                "ansible_user": "admin",
+
+                "custom_fields": {
+
+                    "interface": "ether2",
+
+                    "ip_address": "10.10.10.18",
+
+                    "ssh_password": "123",
+
+                    "ssh_user": "admin"
+
+                },
+
+                "device_roles": [
+
+                    "chr"
+
+                ],
+
+                "device_types": [
+
+                    "7"
+
+                ],
+
+                "is_virtual": false,
+
+                "local_context_data": [
+
+                    null
+
+                ],
+
+                "locations": [],
+
+                "manufacturers": [
+
+                    "mikrotik"
+
+                ],
+
+                "primary_ip4": "192.168.0.110",
+
+                "regions": [],
+
+                "serial": "P7MF8Wr15QP",
+
+                "services": [],
+
+                "site_groups": [],
+
+                "sites": [
+
+                    "lab3site"
+
+                ],
+
+                "status": {
+
+                    "label": "Active",
+
+                    "value": "active"
+
+                },
+
+                "tags": []
+
+            },
+
+            "mikrotik719": {
+
+                "ansible_connection": "network_cli",
+
+                "ansible_host": "192.168.0.113",
+
+                "ansible_network_os": "routeros",
+
+                "ansible_password": "123",
+
+                "ansible_user": "admin",
+
+                "custom_fields": {
+
+                    "interface": "ether2",
+
+                    "ip_address": "10.10.10.19",
+
+                    "ssh_password": "123",
+
+                    "ssh_user": "admin"
+
+                },
+
+                "device_roles": [
+
+                    "chr"
+
+                ],
+
+                "device_types": [
+
+                    "7"
+
+                ],
+
+                "is_virtual": false,
+
+                "local_context_data": [
+
+                    null
+
+                ],
+
+                "locations": [],
+
+                "manufacturers": [
+
+                    "mikrotik"
+
+                ],
+
+                "primary_ip4": "192.168.0.113",
+
+                "regions": [],
+
+                "serial": "4vy3xQEKrMH",
+
+                "services": [],
+
+                "site_groups": [],
+
+                "sites": [
+
+                    "lab3site"
+
+                ],
+
+                "status": {
+
+                    "label": "Active",
+
+                    "value": "active"
+
+                },
+
+                "tags": []
+
+            }
+
+        }
+
+    },
+
+    "all": {
+
+        "children": [
+
+            "ungrouped"
+
+        ]
+
+    },
+
+    "ungrouped": {
+
+        "hosts": [
+
+            "mikrotik718",
+
+            "mikrotik719"
+
+        ]
+
+    }
+
+}
+
