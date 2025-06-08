@@ -22,6 +22,7 @@ Date of finished: -
 Реализуем parser, функцию ipv4_forward, добавим логику обработки пакетов (ingress control logic) и deparser
 
 Проверим ping
+
 ![image](https://github.com/user-attachments/assets/54dd35e2-21bf-41d6-9504-03be45578f4d)
 
 
