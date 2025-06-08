@@ -17,6 +17,17 @@ Date of finished: -
 ![image](https://github.com/user-attachments/assets/3eb075aa-7020-4e62-8c01-ff85e927fa82)
 
 
+# Реализуем базовую переадресацию
+
+Реализуем parser, функцию ipv4_forward, добавим логику обработки пакетов (ingress control logic) и deparser
+
+Проверим ping
+![image](https://github.com/user-attachments/assets/54dd35e2-21bf-41d6-9504-03be45578f4d)
+
+
+![image](https://github.com/user-attachments/assets/232a4194-1a50-4e50-803c-f4517162cca2)
+
+# Реализуем базовое туннелирование
 
 
 
