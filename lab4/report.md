@@ -33,7 +33,9 @@ Date of finished: -
 Реализуем поддержку базового туннелирования: добавим заголовок myTunnel и обновим parser для его извлечения после IPv4. Создадим функцию myTunnel_forward и myTunnel_exact для маршрутизации по dst_id.
 В ingress logic добавим обработку туннельных пакетов отдельно от IPv4. Также обновим deparser, чтобы включать заголовок myTunnel в выходной пакет.
 
+Проверим 
 
+![image](https://github.com/user-attachments/assets/026ac17c-1ceb-4ca8-aa9f-6154d39d4da5)
 
 
 
